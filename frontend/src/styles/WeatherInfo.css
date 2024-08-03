@@ -1,0 +1,41 @@
+/* WeatherInfo.css */
+
+.clear-bg {
+  background-image: url('https://source.unsplash.com/1600x900/?clear-sky');
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 5s ease-in-out;
+}
+
+.rainy-bg {
+  background-image: url('https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif'); /* Example GIF */
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 5s ease-in-out;
+}
+
+.snowy-bg {
+  background-image: url('https://source.unsplash.com/1600x900/?snow');
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 5s ease-in-out;
+}
+
+.cloudy-bg {
+  background-image: url('https://source.unsplash.com/1600x900/?cloudy');
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 5s ease-in-out;
+}
+
+.default-bg {
+  background-image: url('https://source.unsplash.com/1600x900/?weather');
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
