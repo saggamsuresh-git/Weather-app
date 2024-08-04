@@ -24,3 +24,17 @@ API Integration: The backend makes HTTP requests to a third-party weather API to
 Netlify:
 The application is deployed on Netlify, a popular platform for hosting web applications.
 Netlify handles the build and deployment proce
+
+Learning and Experience
+Explain what you learned and the skills you demonstrated by working on this project:
+
+API Integration: Understanding how to interact with external APIs and handle JSON data.
+Full-Stack Development: Gaining experience in both frontend and backend development.
+Deployment: Learning how to deploy applications to a live environment using Netlify.
+Challenges and Solutions
+API Rate Limiting:
+
+Managed to handle potential issues with API rate limits by implementing error handling and providing user feedback.
+Cross-Origin Resource Sharing (CORS):
+
+Ensured the application handles CORS issues properly, allowing the frontend to make requests to the backend and external APIs without issues.
